@@ -1,0 +1,30 @@
+/* style.css */
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilo para las celdas de encabezado */
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Estilo para las celdas de datos */
+td {
+    padding: 8px;
+}
+
+/* Estilo para las filas impares */
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para el enlace "Crear Boton" */
+a {
+    display: block;
+    margin-bottom: 10px;
+}
